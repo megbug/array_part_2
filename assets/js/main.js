@@ -1,5 +1,7 @@
 // ============================= lvl_1_1 ====================================
 
+    // declaring and assigning "getraenke" array
+
 // let getraenke = [
 //     "Coca-Cola",
 //     "Apfelsaft",
@@ -11,24 +13,27 @@
 //     "Fanta"
 // ]
 
+    // sorting getraenke array
+
 // getraenke.sort();
 
-// let myDrinksArr = getraenke.slice();
-
-// console.log(myDrinksArr);
+    // declaring function "myDrinks" -> 1. console.log all elements of array | 2. transfer each element of array to index.html
 
 // myDrinks = () => {
-//     console.log(myDrinksArr);
+//     console.log(getraenke);
 
-//     myDrinksArr.forEach(elt => {
+//     getraenke.forEach(elt => {
 //         document.writeln(elt);
 //     });
 // }
 
+    // function calling
 // myDrinks();
 
 
 // ============================= lvl_1_2 ====================================
+
+    // declaring and assigning "getraenke2" array
 
 // let getraenke2 = [
 //     "Coca-Cola",
@@ -41,17 +46,21 @@
 //     "Fanta"
 // ]
 
-// // console.log(getraenke2);
+    // declaring function "nameToUpperCase" -> return elements toUpperCase
 
 // function nameToUpperCase(elt) {
 //     return elt.toUpperCase();
 // }
+
+    // declare new array "upperDrinks" with map to make duplicate (but not change original array) and combine with function to automatically turn every element of new array toUpperCase outcome
 
 // let upperDrinks = getraenke2.map(nameToUpperCase);
 // console.log(upperDrinks);
 
 
 // ============================= lvl_1_3 ====================================
+
+    // declaring and assigning "array" array
 
 // let array = [
 //     18,
@@ -91,9 +100,13 @@
 //     78
 // ];
 
+    // declaring array "doubleResult" with map to make duplicate (but not change original array) and combine with function to return elements multiplied by 2
+
 // let doubleResult = array.map((elt) => {
 //     return elt * 2;
 // });
+
+    // sort array doubleResult and console.log
 
 // doubleResult.sort((a, b) => a - b);
 
@@ -101,7 +114,11 @@
 
 /// ============================= lvl_1_4 ====================================
 
+    // declaring and assigning array "fahrenheit"
+
 // let fahrenheit = [0, 32, 45, 50, 75, 80, 99, 120];
+
+    // declaring array "celsius" with map and combine with function to return elements through converting equation and as typeof Number
 
 // let celsius = fahrenheit.map((elt) => {
 //     return Number((elt -32)/1.8).toFixed();
@@ -148,6 +165,8 @@
 //     15,
 //     78
 // ];
+
+    // declaring function "divide3()" ->for each element of array check: if element of Array can be divided by 3 add 100 to those elements; after that console.log result of element+100 and elements by itself
 
 // const divide3 = () => {
 //     checkNumber.forEach(elt => {
